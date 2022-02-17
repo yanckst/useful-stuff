@@ -1,7 +1,8 @@
--- SQL SERVER 15
+-- SQL SERVER
 -- Author: Piotr Kononow  25th June, 2018
 -- Website : https://dataedo.com/kb/query/sql-server/list-foreign-keys
 -- List foreign keys in SQL Server database
+-- Tested on version 15
 
 SELECT schema_name(fk_tab.schema_id) + '.' + fk_tab.name AS foreign_table,
     '>-' AS rel,
