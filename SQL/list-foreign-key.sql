@@ -1,3 +1,4 @@
+-- SQL SERVER 15
 -- Author: Piotr Kononow  25th June, 2018
 -- Website : https://dataedo.com/kb/query/sql-server/list-foreign-keys
 -- List foreign keys in SQL Server database
@@ -18,7 +19,7 @@ FROM sys.foreign_keys fk
                             ON fk_c.parent_object_id = col.object_id
                             AND fk_c.parent_column_id = col.column_id
                     where fk_c.parent_object_id = fk_tab.object_id
-                      AND fk_c.constraint_object_id = fk.object_id
+                        AND fk_c.constraint_object_id = fk.object_id
                             ORDER BY col.column_id
                             for xml path ('') ) D (column_names)
 ORDER BY schema_name(fk_tab.schema_id) + '.' + fk_tab.name,
