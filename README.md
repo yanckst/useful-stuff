@@ -1,4 +1,4 @@
-# useful-code
+# useful-stuff
 
 This repository is a Work-In-Progress, fell free to contribute if you want.
 
@@ -6,7 +6,7 @@ This repository is a Work-In-Progress, fell free to contribute if you want.
 
 This repository will save useful time when looking on the internet for a specific code to achieve something.
 
-A lot of time is wasted to search and sometimes some websites or blog posts and deleted.
+A lot of time is wasted to search and sometimes some websites or blog posts are deleted.
 
 This repository will regroup a lot of code sample and reduce time to search on the internet.
 
