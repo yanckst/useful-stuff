@@ -22,3 +22,12 @@ const calculateDifferenceInPercentage = (
     return (numerator / denominator) * 100
 }
 ```
+
+```javascript
+// Example
+const value1 = 0.024569;
+const value2 = 0.024326;
+const differencePercentage = calculateDifferenceInPercentage(value1, value2);
+// 0.9939666632580024
+// the deviation of these numbers is around 1%
+```
